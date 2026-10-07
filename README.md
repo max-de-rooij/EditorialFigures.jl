@@ -2,7 +2,7 @@
 
 *Lightweight SVG figures in an editorial style.*
 
-Hairline draws figures the way a good newspaper graphics desk would: hairline gridlines, a
+EditorialFigures.jl draws figures the way a good newspaper graphics desk would: hairline gridlines, a
 muted palette with one accent, labels next to the data instead of in a key, and plenty of
 white space. It writes plain SVG, depends on nothing but Julia's standard library, and
 renders a figure in milliseconds.
@@ -43,11 +43,11 @@ savesvg("convergence-slide.svg", fig; mode = :static) # for PowerPoint, Keynote,
 
 ## Installation
 
-Hairline is not registered yet:
+EditorialFigures is not registered yet:
 
 ```julia
 using Pkg
-Pkg.develop(path = "path/to/Hairline.jl")
+Pkg.develop(path = "path/to/EditorialFigures.jl")
 ```
 
 ## Documentation
