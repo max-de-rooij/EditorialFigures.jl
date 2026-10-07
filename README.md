@@ -1,4 +1,4 @@
-# Hairline.jl
+# EditorialFigures.jl
 
 *Lightweight SVG figures in an editorial style.*
 
