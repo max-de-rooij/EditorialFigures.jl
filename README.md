@@ -10,7 +10,7 @@ renders a figure in milliseconds.
 ![Two lines with direct labels on a logarithmic axis](docs/src/assets/readme-lines.svg)
 
 ```julia
-using Hairline
+using EditorialFigures
 
 k = 1:60
 fig = Fig(680, 320; title = "Convergence", subtitle = "Gap to the optimum per iteration")
