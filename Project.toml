@@ -1,0 +1,17 @@
+name = "EditorialFigures"
+uuid = "02df52cc-8e62-48fe-a4e0-a0015c6a7d62"
+version = "0.1.0"
+authors = ["Max de Rooij <m.d.rooij@tue.nl>"]
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+Printf = "1"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
